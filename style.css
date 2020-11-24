@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+/* font-family: 'Gloria Hallelujah', cursive; */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.picture {
+  position: absolute;
+  width: 80vh;
+  height: 45vh;
+  background-color: rgb(160, 141, 116);
+  top: calc(50% - 45vh / 2);
+  left: calc(50% - 80vh / 2);
+  /* margin: 100px auto; */
+  overflow: hidden;
+}
+
+img {
+  position: absolute;
+  display: none;
+}
+
+img:nth-child(1) {
+  display: block;
+  width: 100%;
+  bottom: -10%;
+}
+img:nth-child(2) {
+  display: block;
+  width: 100%;
+  bottom: -25%;
+}
+img:nth-child(3) {
+  display: block;
+  width: 100%;
+  bottom: -37%;
+}
+img:nth-child(4) {
+  display: block;
+  width: 100%;
+  bottom: -32%;
+}
+img:nth-child(5) {
+  display: block;
+  width: 100%;
+  bottom: -40%;
+}
+img:nth-child(6) {
+  display: block;
+  width: 100%;
+  bottom: -65%;
+}
+img:nth-child(7) {
+  display: block;
+  height: 17%;
+  top: 3%;
+  left: 6%;
+}
+img:nth-child(8) {
+  display: block;
+  width: 32%;
+  top: 10%;
+  left: -6%;
+}
+img:nth-child(9) {
+  display: block;
+  width: 48%;
+  right: 0;
+  top: 6%;
+}
+img:nth-child(10) {
+  display: block;
+  right: 0;
+  top: 18%;
+  height: 46%;
+}
+/* img:nth-child(11) {
+  display: block;
+  height: 25%;
+  bottom: 15%;
+  left: 6%;
+} */
+div {
+  position: absolute;
+  font-size: 65px;
+  font-family: "Gloria Hallelujah", cursive;
+  bottom: 12%;
+  left: 5%;
+}
